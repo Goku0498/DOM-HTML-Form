@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+#userForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#userForm .full-width {
+    grid-column: span 2;
+}
+#infoTable {
+    width: 100%;
+}   
